@@ -53,10 +53,16 @@ utils::globalVariables(c(
   "TADA.MeasureQualifierCode.Flag", "TADA.MeasureQualifierCode.Def", "MeasureQualifierCode", "value", "Flag_Column",
   "Data_NCTCShepherdstown_HUC12", "ActivityStartDateTime", "TADA.MultipleOrgDupGroupID",
   "TADA.WQXVal.Flag", "Concat", ".", "MeasureQualifierCode.Split", "TADA.Media.Flag",
-  "TADA.UseForAssessment.Flag", "ML.Media.Flag", "TADA.UseForAnalysis.Flag",
-  "Unique.Identifier", "Domain", "Note.Recommendation", "Conversion.Coefficient",
-  "Conversion.Coefficient", "Last.Change.Date", "Value", "Minimum", "Unique.Identifier",
-  "Domain"
+  "TADA.UseForAnalysis.Flag", "ML.Media.Flag", "TADA.DepthCategory.Flag", "ARD_Category",
+  "ActivityRelativeDepthName", "TADA.ActivityDepthHeightMeasure.MeasureValue", 
+  "TADA.ResultDepthHeightMeasure.MeasureValue", "TADA.ResultDepthHeightMeasure.MeasureUnitCode",
+  "TADA.ActivityDepthHeightMeasure.MeasureUnitCode", "TADA.ConsolidatedDepth",
+  "TADA.ConsolidatedDepth.Unit", "DepthsPerGroup", "TADA.ActivityBottomDepthHeightMeasure.MeasureValue",
+  "TADA.ConsolidatedDepth.Bottom", "DepthsByGroup", "TADA.DepthProfileAggregation.Flag",
+  "N", "SecchiConversion", "YAxis.DepthUnit", "Unique.Identifier", "Domain",
+  "Note.Recommendation", "Conversion.Coefficient", "Last.Change.Date", "Value", "Minimum",
+  "Maximum", "TADA.NResults", "MeanResults", "TADA.CharacteristicsForDepthProfile",
+  "MonitoringLocationTypeName"
 ))
 
 # global variables for tribal feature layers used in TADA_OverviewMap in Utilities.R
